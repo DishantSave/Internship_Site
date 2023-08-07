@@ -1,0 +1,330 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   background-color: #f5f8f5e3;
+}
+.brand-logo{
+    /* border: 1px solid orange; */
+    
+    font-weight: 500;
+}
+
+/* navbar css starts */
+
+.Nlogo img{
+    width: 100px;
+    height: 100px;
+}
+.navbar{
+
+}
+.dropdown-content{
+
+/* width: 560px; */
+
+}
+
+.carousel{
+    /* border: 2px solid red; */
+    /* height: 100vh; */
+}
+.carousel-item{
+    /* border: 1px solid red; */
+    box-shadow: 3px 3px  5px black;
+    outline: none;
+    border-radius: 5px;   
+}
+carousel-item img{
+    border:2px solid black;
+}
+.btn{
+    width:150px;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px black;
+}
+
+.c2{
+    border: 1px solid black;
+    width: 50%;
+    font-size: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.container span{
+    color:rgb(196, 145, 37)
+}
+/* about section (why choose us)*/
+.about_, span{
+    font-family: 'Forum', cursive;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 3px;
+}
+
+.about_ h2{
+    font-family: 'Libre Baskerville', serif;
+}
+.about_ p{
+    font-family: 'Libre Baskerville', serif;
+    padding-bottom: 15px;
+}
+button{
+    border: none;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.685);
+}
+.home_btn{
+   /* border: 2px solid red; */
+   outline: none;
+   width: 10rem;
+   height: 2.5rem;
+   border-radius: 10px;
+   padding: 4px;
+   /* background-color: */
+}
+
+/* card panel */
+.card-panel{
+    height: 400px;
+}
+
+
+
+/* footer css */
+
+
+ .flogo img{
+    width: 60%;
+    height: 14%;
+}
+.flinks a{
+font-size: 12px;
+margin: 0 6px;
+}
+.gmap iframe{
+    border: 2px solid red;
+    
+   
+}
+
+
+
+/* Blog page css */
+/* For the Blog Page */
+.main_blog{
+    /* border: 1px solid red; */
+    width: 100vw;
+    height:80vh;
+    background-image: url(images/blog.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+@media screen and (max-width: 768px){
+    .content_blog{
+        flex-direction: column;
+    }
+}
+
+
+/* For the Gallery Page */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+/* initial body of landing page */
+body{
+    box-sizing: border-box;
+}
+.contact{
+    background-color: white;
+    margin-top: 0px;
+}
+.main{
+    background-image: url('https://wallpapercave.com/wp/wp2707504.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    box-shadow: black 0px 0px 30px 1px;
+}
+.logo{
+    position: absolute;
+    color: aliceblue;
+    opacity: 0.7;
+    margin-left: 40%;
+    margin-top: 180px;
+    font-size: 42px;
+}
+
+
+/* For the Blog Page */
+.container_gallery{
+    width: 100%;
+}
+.container_gallery .row_blog{
+    width: 80%;
+    margin: auto;
+}
+.container_gallery .row_blog .header_blog{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+.container_gallery .row_blog .header_blog h1{
+    padding-top: 30px;
+    font-size: 45px;
+    color: #e19c30;
+}
+.content_gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.content_gallery .card_blog{
+    flex: 1;
+    margin: 50px 20px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+.content_gallery .card_blog img{
+    width: 100%;
+    height: auto;
+}
+@media screen and (max-width: 768px){
+    .content_gallery{
+        flex-direction: column;
+    }
+}
+/* For the Blog Page */
+/* end of Gallery Page */
+
+
+/* Service page css */
+.service{
+   background-color: #ffffff;
+}
+.service_img{
+  margin-top: -15px;
+}
+.service_img img{
+    width: 100vw;
+    height: 90vh;
+}
+
+h2{
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    
+}
+
+/* (Universal property for website)this card css apply to all pages  */
+.card{
+   
+   box-shadow: 2px 2px 2px 3px rgb(0, 0, 0);
+}
+
+
+/* contact page css starts */
+.contact{
+   
+    margin-top: -15px;
+}
+.cont_img{
+
+    margin-top: -15px;
+
+}
+.cont_img img{
+   
+    width: 100%;
+    height: 100vh;
+}
+
+.form_card{
+    height:auto;
+    box-sizing: border-box;
+    box-shadow: none;
+}
+.form_card_2{
+    box-sizing: border-box;
+    height:auto;
+    box-shadow: none;
+}
+
+
+
+form{
+    
+    box-shadow: inset;
+    height: auto;
+    box-sizing: border-box;
+}
+.container input{
+    box-sizing: border-box;
+  
+    outline: none;
+    width: 100%;
+    height:40px;
+    margin: 4px 0;
+    border-radius: 10px;
+   
+}
+.tickbox_rathang span{
+    color:rgb(27, 27, 25)
+}
+.tickbox_rathang .radio_b{
+    display: inline;
+    margin:4px auto;
+}
+
+.container h3, h5{
+    font-size: 15px;
+}
+.card-content h5 span{
+    color: #e19c30;
+}
+.map_{
+    
+    box-shadow: none;
+}
+.map_ h3{
+    padding-top:4px ;
+    font-size: 25px;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Tillana', cursive;
+    color: #e19c30;
+}
+.cont_map{
+    width:100%;
+}
+.content_of_contact{
+text-align: center;
+/* border: 1px solid yellow; */
+}
+.content_of_contact img{
+    margin-top: 0px;
+    width: 40%;
+    height: 5%;
+    /* display: inline; */
+    /* text-align: center;    */
+}
+.content_of_contact h3{
+font-size: 18px;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Tillana', cursive;
+
+}
+.cont_box{
+    /* border: 1px solid red; */
+}

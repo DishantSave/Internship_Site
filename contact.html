@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Tillana:wght@600&display=swap"
+        rel="stylesheet">
+
+    <!-- fontawsome kit -->
+    <script src="https://kit.fontawesome.com/b3ec5efbd4.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- custom css link -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+</head>
+
+<body>
+    <!-- Nabar Start here -->
+    <div class="navbar-fixed z-depth-4">
+
+
+        <!-- Dropdown Structure -->
+        <ul id='dropdown1' class='dropdown-content'>
+            <li><a href="services.html">Premium car wash</a></li>
+            <li><a href="services.html">Auto Detailing</a></li>
+            <li class="divider" tabindex="-1"></li>
+            <li><a href="services.html">Paint Correction</a></li>
+            <li><a href="services.html">Headlight Restoration</a></li>
+            <li><a href="services.html">Chrome Restoration</a></li>
+            <li><a href="services.html">Wax & Teflon Coating</a></li>
+            <li><a href="services.html">Ceramic Coating</a></li>
+            <li><a href="services.html">Paint Protection Film</a></li>
+            <li><a href="services.html">vehicle Insurance</a></li>
+            <li><a href="services.html">cars & bike polishing</a></li>
+        </ul>
+        <nav class="nav-wrapper  white lighten-5">
+
+            <div class="container">
+                <a href="##" class="Nlogo brand-logo left-align">
+                    <img src="images/KTlogo.png"
+                        alt="KT Automotive"></a>
+
+                <a href="#" class="sidenav-trigger right black-text" data-target="mobile-links"><i
+                        class="material-icons">menu</i></a>
+
+
+
+                <ul class="right hide-on-med-and-down">
+
+                    <li><a class="black-text" href="home.html">Home</a></li>
+
+                    <!-- <li><a class="black-text" href="/M tut/services.html">Services</a></li> -->
+                    <!-- Dropdown Trigger -->
+                    <li><a class="dropdown-trigger black-text" href="#!" data-target="dropdown1">Services<i
+                                class="material-icons right ">arrow_drop_down</i></a></li>
+
+                    <li><a class="black-text" href="gallery.html">Instagram</a></li>
+                    <li><a class="black-text" href="blog.html">Blog</a></li>
+                    <li><a class="black-text" href="contact.html">Contact</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <ul class="sidenav" id="mobile-links">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html">Instagram</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+
+    </ul>
+    <!-- Navbar ended here -->
+
+<section class="section">
+    <div class="cont_img">
+        <img src="images/contact-img.jpg" alt="Contact us">
+    </div>
+</section>
+
+    <!-- services secstion -->
+    <section class="section contact">
+        <div class="row">
+            <div class="col s12 m6">
+                <div class="form_card card #f5f5f5 grey lighten-3">
+                    <div class="card-content grey-text">
+                        <span class="card-title center-align">Please Provide your details</span>
+                        <div class="divider"></div>
+                        <form action="/sign_up" method="POST">
+                            <div class="container">
+                                <input type="textbox" id="name" name="name" placeholder="   Enter Your Name" required>
+                                <br>
+                                <input type="textbox" id="phno" name="phno" placeholder="   Enter Phone Number" required>
+                                <br>
+                                <input type="textbox" id="email" name="email" placeholder="   Enter Email id" required>
+                                <br>
+                                <input type="textbox" id="vname" name="vname" placeholder="   Enter Vehicle Name"
+                                    required>
+                                <br>
+                                <div class="tickbox_rathang">
+                                    <p class="radio_b">
+                                        <label>
+                                            <input name="group1" id="group1" class="Cont_radio" type="radio" checked />
+                                            <span>Car</span>
+                                        </label>
+                                    </p>
+                                    <p class="radio_b">
+                                        <label>
+                                            <input name="group1" id="group1" class="Cont_radio" type="radio" />
+                                            <span>Bike</span>
+                                        </label>
+                                    </p>
+                                </div>
+                                <input type="textbox" id="mnumber" name="mnumber" placeholder="   Model Number">
+                                <br>
+                                <h3>Service of Interest (Select All That Apply)</h3>
+                                <div class="tickbox_rathang">
+                                    <!-- checkbox field -->
+                                    <p>
+                                        <label>
+                                            <input type="checkbox" id="cw" name="cw" class="filled-in" />
+                                            <span>Car Wash</span>
+                                        </label>
+                                    </p>
+                                    <p>
+                                        <label>
+                                            <input type="checkbox" id="edet" name="edet" class="filled-in" />
+                                            <span>Exterior Detailing</span>
+                                        </label>
+                                    </p>
+                                    <p>
+                                        <label>
+                                            <input type="checkbox" id="idet" name="idet" class="filled-in" />
+                                            <span>Interior Detailing</span>
+                                        </label>
+                                    </p>
+                                    <p>
+                                        <label>
+                                            <input type="checkbox" id="ppf" name="ppf" class="filled-in" />
+                                            <span>Paint Protection Film</span>
+                                        </label>
+                                    </p>
+                                    <p>
+                                        <label>
+                                            <input type="checkbox" id="cc" name="cc" class="filled-in" />
+                                            <span>Ceramic Coating</span>
+                                        </label>
+                                    </p>
+                                    <p>
+                                        <label>
+                                            <input type="checkbox" id="pc" name="pc" class="filled-in" />
+                                            <span>Paint Correction</span>
+                                        </label>
+                                    </p>
+                                    <p>
+                                        <label>
+                                            <input type="checkbox" id="watc" name="watc" class="filled-in" />
+                                            <span>Wax and Teflon coating</span>
+                                        </label>
+                                    </p>
+                                    <p>
+                                        <label>
+                                            <input type="checkbox" id="vi" name="vi" class="filled-in" />
+                                            <span>Vehicle Insurance</span>
+                                        </label>
+                                    </p>
+                                    <p>
+                                        <label>
+                                            <input type="checkbox" id="polishing" name="polishing" class="filled-in" />
+                                            <span>Polishing</span>
+                                        </label>
+                                    </p>
+                                    <p>
+                                        <label>
+                                            <input type="checkbox" id="other" name="other" class="filled-in" />
+                                            <span>Other (Please Specify Below)</span>
+                                        </label>
+                                    </p>
+                                </div>
+                                <input type="textbox" id="txtbox" name="txtbox"
+                                    placeholder="   Your other Specifications">
+                                <h5>Please be sure to include car make and model, service(s) of interest,
+                                    and any other specifications about your request. One of our specialists
+                                    will be in contact soon!</h5>
+                                <br>
+                                <div class="container center-align">
+                                    <button class="btn waves-effect waves-light" type="submit">Submit
+                                        <i class="material-icons right center-align">send</i>
+                                    </button>
+                                </div>
+                                
+                            </div>
+                        </form>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="col s12 m6">
+                <div class="form_card_2 card blue-grey darken-1">
+                    <div class="card-content white-text">
+                        <span class="card-title center-align">Contact Us</span>
+                        <div class="divider"></div>
+
+                        <div class="content_of_contact">
+                            <img  src="images/cont_lable.png" alt="contact_image">
+                            <h3>
+                                We are always here to help you! If you have any query about <span>Auto Detailing</span> please contact us.
+                            </h3>
+                            <h3>We reccomend the better solutions</h3>
+                            <h3>Working hours: 9:00am - 8:00pm</h3>
+                            <div class="row">
+                                <div class="cont_box col s6 m6">
+                                <span><i class="material-icons">call</i> 8585 44 3535</span><div class="divider"></div>
+                                <span><i class="material-icons">mail</i> ktautomotivemumbai@gmail.com</span>
+                                </div>
+                                <div class="cont_box col s6 m6">
+                                    Address: Shop No.1, Sant Muktabai, 90ft, Virar - Nallasopara Link Rd, Sant Nagar, Virar East, Maharashtra 401305
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6">
+                <div class="map_ card">
+                    <h3 class="center-align">Visit KT Automotive Today!</h3>
+                    <iframe class="cont_map"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7524.437553422773!2d72.80425799550895!3d19.446132097248753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7a93d8bc9cef9%3A0xdb912d0f5fc525f2!2sAaditya%20Motors!5e0!3m2!1sen!2sin!4v1680257300384!5m2!1sen!2sin"
+                        width="600" height="314" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+            </div>
+
+
+
+        </div>
+    </section>
+
+
+    <!-- footer section starts -->
+
+    <footer class="page-footer #0d47a1 blue darken-4">
+        <div class="row">
+            <div class="col m3 s12 center-align">
+
+                <a href="##" class="flogo brand-logo"><img src="images/KTlogo.png" alt="logo"></a>
+
+
+            </div>
+            <div class="col m3 s12">
+                <div class="container">
+                    <h5>Services</h5>
+                    <ul>
+                        <li><a href="##" class="white-text">Premium Car Wash</a></li>
+                        <li><a href="##" class="white-text">Auto Detailing</a></li>
+                        <li><a href="##" class="white-text">Paint Correction</a></li>
+                        <li><a href="##" class="white-text">Car & bike polishing</a></li>
+                        <li><a href="##" class="white-text">Ceramic Coating</a></li>
+                        <li><a href="##" class="white-text">Chrome Restoration</a></li>
+                        <li><a href="##" class="white-text">vehicle Insurance</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col m3 s12">
+                <h5>Get in Touch</h5>
+                <ul>
+                    <li><a href="##" class="white-text"><i class="tiny material-icons yellow-text">room</i> Virar East,
+                            near
+                            Dmart</a></li>
+                    <li><a href="##" class="white-text"><i class="tiny material-icons yellow-text">email</i>
+                            rathantechnoloies@gmail.com</a></li>
+                    <li><a href="##" class="white-text"><i class="tiny material-icons yellow-text">call</i> (+91) 8585
+                            44 3535</a>
+                    </li>
+
+                </ul>
+
+            </div>
+            <div class="col m3 s12">
+                <h5>Connect With Us</h5>
+                <a href="#" class="yellow-text"><i class="fa-brands fa-square-facebook fa-xl"></i></a>
+                <a href="#" class="yellow-text"><i class="fa-brands fa-square-instagram fa-xl"></i></a>
+                <a href="#" class="yellow-text"><i class="fa-brands fa-square-twitter fa-xl"></i></a>
+            </div>
+
+
+
+
+        </div>
+
+        <div class="footer-copyright grey darken-4">
+            <div class="flinks container">
+                © 2023 Copyright and developed by Rathang Technologies
+                <a class="grey-text text-lighten-4 right" href="#!">Terms of Services</a>
+                <a class="grey-text text-lighten-4 right" href="#!">Privacy Policy</a>
+            </div>
+        </div>
+
+
+    </footer>
+
+
+
+
+    <!-- <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.sidenav').sidenav();
+            $(".dropdown-trigger").dropdown({
+                coverTrigger: false,
+                constrainWidth: false
+            });
+        });
+
+    </script>
+
+</body>
+
+</html>
